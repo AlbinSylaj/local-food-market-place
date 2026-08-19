@@ -1,5 +1,5 @@
 import React from "react";
-import "../src/assets/styles/BuyerCart.css";
+import "../assets/styles/BuyerCart.css";
 
 function BuyerCart({ cartItems, removeFromCart }) {
   const cart = cartItems;

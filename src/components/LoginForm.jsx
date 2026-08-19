@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import "../src/assets/styles/Forms.css";
+import "../assets/styles/Forms.css";
 
 function LoginForm({ onAuthSuccess }) {
   const navigate = useNavigate();

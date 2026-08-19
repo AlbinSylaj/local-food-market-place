@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "../src/assets/styles/Forms.css";
+import "../assets/styles/Forms.css";
 function SellerProfileForm() {
   const [formData, setFormData] = useState({
     bio: "",

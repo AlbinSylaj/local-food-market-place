@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from "react-router-dom";
-import SignupForm from "../components/SignupForm.jsx";
+import SignupForm from "../components/SignUpForm.jsx";
 import LoginForm from "../components/LoginForm.jsx";
 import SellerProfileForm from "../components/SellerProfileForm.jsx";
 import ProductForm from "../components/ProductForm.jsx";
