@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'marketplace/style.css' %}">
+
+</head>
+<body>
+    <h2>Create an account</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
